@@ -1,0 +1,6 @@
+﻿  Player.cpp
+C:\Users\atournois\source\repos\Text Adventure\Text Adventure\Room.h(28,35): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\atournois\source\repos\Text Adventure\Text Adventure\Player.h(16,28): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\atournois\source\repos\Text Adventure\Text Adventure\Player.cpp(184,35): warning C4227: anachronism used: qualifiers on reference are ignored
+C:\Users\atournois\source\repos\Text Adventure\Text Adventure\Player.cpp(200,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Text Adventure.vcxproj -> C:\Users\atournois\source\repos\Text Adventure\Debug\Text Adventure.exe
