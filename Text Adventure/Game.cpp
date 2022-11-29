@@ -1,7 +1,4 @@
 #include "Game.h"
-#include <iostream>
-#include <string>
-#include "Room.h"
 
 void Game::Init()
 {
@@ -39,7 +36,7 @@ void Game::Turn()
 
 	std::cout << "Name : " << player.GetName() << " || Health Points : " << player.GetHealth() << " || Score : " << player.GetScore() << std::endl;
 	std::cout << "You enter a room : Position[" << level.GetRoom(player.GetCoordinates())->GetCoordinates().x << "," << level.GetRoom(player.GetCoordinates())->GetCoordinates().y << "]." << std::endl << std::endl;
-
+	std::cout << "Last coordinates : Position[" << last_room.x << "," << last_room.y << "]." << std::endl;
 	for (Room* room : level.GetRoom(player.GetCoordinates())->GetNeighbours())
 	{
 		std::cout << "Neighbour room at Position[" << room->GetCoordinates().x << "," << room->GetCoordinates().y << "]." << std::endl;
@@ -166,6 +163,7 @@ bool Game::InputAction(std::string action)
 	else if (action == "Flee")
 	{
 		valid_action = true;
+		Flee();
 		std::cout << "You Flee back to the last room." << std::endl;
 		system("pause");
 	}

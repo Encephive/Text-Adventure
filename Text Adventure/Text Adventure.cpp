@@ -2,8 +2,7 @@
 //
 
 #include "TextAdventure.h"
-#include "Game.h"
-#include <iostream>
+
 uint8_t first{ 0 };
 uint8_t second{ 0 };
 uint8_t* first_ptr{ &first };

@@ -1,1 +1,8 @@
-﻿  Text Adventure.vcxproj -> D:\Users\Aries\Documents\GitHub\Text Adventure\Debug\Text Adventure.exe
+﻿  Game.cpp
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Player.h(13,28): warning C4227: anachronisme utilisé : qualificateurs de référence ignorés
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Level.h(38,43): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Level.h(40,40): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Level.h(42,26): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Level.h(50,24): warning C4018: '<' : incompatibilité signed/unsigned
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Game.cpp(203,20): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  Text Adventure.vcxproj -> D:\Users\Aries\Documents\GitHub\Text Adventure\Debug\Text Adventure.exe

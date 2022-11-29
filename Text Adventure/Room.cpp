@@ -1,5 +1,4 @@
 #include "Room.h"
-#include <iostream>
 
 int Room::MonsterCount()
 {
