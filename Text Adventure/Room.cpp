@@ -72,40 +72,40 @@ bool Room::ValidDirection(Direction dir)
 	}
 }
 
-Room* Room::GetNeighbour(Direction dir)
+Coordinates Room::GetNeighbour(Direction dir)
 {
 	switch (dir)
 	{
 	case Direction::Up:
 		if (room_up)
 		{
-			return room_up;
+			return room_up->GetCoordinates();
 		}
 		break;
 	case Direction::Down:
 		if (room_down)
 		{
-			return room_down;
+			return room_down->GetCoordinates();
 		}
 		break;
 	case Direction::Left:
 		if (room_left)
 		{
-			return room_left;
+			return room_left->GetCoordinates();
 		}
 		break;
 	case Direction::Right:
 		if (room_right)
 		{
-			return room_right;
+			return room_right->GetCoordinates();
 		}
 		break;
 	default:
 		std::cerr << "UNKNOWN DIRECTION" << std::endl;
-		return this;
+		return this->GetCoordinates();
 		break;
 	}
-	return this;
+	return this->GetCoordinates();
 }
 
 bool Room::IsEndRoom()
@@ -115,7 +115,7 @@ bool Room::IsEndRoom()
 
 
 
-Coordinates& const Room::GetCoordinates()
+Coordinates Room::GetCoordinates()
 {
 	return coordinates;
 }

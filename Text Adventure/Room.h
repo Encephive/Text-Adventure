@@ -23,9 +23,9 @@ public:
 	void SetNeighbours(Room &room);
 
 	std::vector<Room*> GetNeighbours();
-	Room* GetNeighbour(Direction dir);
+	Coordinates GetNeighbour(Direction dir);
 
-	Coordinates& const GetCoordinates();
+	Coordinates GetCoordinates();
 
 
 
