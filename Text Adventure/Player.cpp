@@ -9,21 +9,22 @@ void Player::SetName(std::string name)
 {
 	player_name = name;
 }
-std::string& const Player::GetName()
+const std::string& const Player::GetName() const
 {
 	return player_name;
 }
 
-int Player::GetScore()
+const int Player::GetScore() const
 {
 	return score;
 }
-int Player::GetHealth()
+
+const int Player::GetHealth() const
 {
 	return health;
 }
 
-int Player::GetDamage()
+const int Player::GetDamage() const
 {
 	return weapon.GetDamage();
 }
@@ -33,7 +34,7 @@ void Player::Loot(int loot)
 	score += loot;
 }
 
-Coordinates& Player::GetCoordinates()
+const Coordinates Player::GetCoordinates() const
 {
 	return coordinates;
 }

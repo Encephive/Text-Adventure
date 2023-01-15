@@ -1,0 +1,13 @@
+﻿  Game.cpp
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Player.h(13,34): warning C4227: anachronism used: qualifiers on reference are ignored
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Game.cpp(203,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Level.cpp
+  Player.cpp
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Player.h(13,34): warning C4227: anachronism used: qualifiers on reference are ignored
+D:\Users\Aries\Documents\GitHub\Text Adventure\Text Adventure\Player.cpp(12,41): warning C4227: anachronism used: qualifiers on reference are ignored
+  Room.cpp
+  Text Adventure.cpp
+  Tools.cpp
+  Weapon.cpp
+  Generating Code...
+  Text Adventure.vcxproj -> D:\Users\Aries\Documents\GitHub\Text Adventure\x64\Debug\Text Adventure.exe

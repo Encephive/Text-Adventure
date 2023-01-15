@@ -10,11 +10,11 @@ class Player
 public:
 
 	void SetName(std::string name);
-	std::string& const GetName();
-	int GetHealth();
-	int GetScore();
-	int GetDamage();
-	Coordinates& GetCoordinates();
+	const std::string& const GetName() const;
+	const int GetHealth() const;
+	const int GetScore() const;
+	const int GetDamage() const;
+	const Coordinates GetCoordinates() const;
 
 	void Move(Coordinates coor);
 	void Loot(int loot);

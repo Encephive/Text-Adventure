@@ -1,6 +1,6 @@
 #include "Weapon.h"
 
-int Weapon::GetDamage()
+const int Weapon::GetDamage() const
 {
 	return damage;
 }

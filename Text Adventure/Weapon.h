@@ -5,7 +5,7 @@ class Weapon
 public:
 	Weapon(std::string n, int d) : name{ n }, damage{ d } {};
 
-	int GetDamage();
+	const int GetDamage() const;
 
 private:
 	std::string name{};
